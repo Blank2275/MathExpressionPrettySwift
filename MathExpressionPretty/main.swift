@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
 
+
+let text = "2 + 3 * 6 / 9"
+let lexer = Lexer(text: text)
+let parser = Parser(tokens: lexer.lex())
+let tree = parser.expression()
+let evaluator = Evaluator()
+print(evaluator.evaluate(expr: tree))
+//expr.display(level: 0)

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B3840B562A1835BE000D4053 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3840B552A1835BE000D4053 /* main.swift */; };
+		B3840B5D2A18439A000D4053 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3840B5C2A18439A000D4053 /* Lexer.swift */; };
+		B3840B5F2A1843D9000D4053 /* utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3840B5E2A1843D9000D4053 /* utility.swift */; };
+		B3840B612A1844A5000D4053 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3840B602A1844A5000D4053 /* Parser.swift */; };
+		B3840B632A18457F000D4053 /* Exp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3840B622A18457F000D4053 /* Exp.swift */; };
+		B3840B652A190AB0000D4053 /* Evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3840B642A190AB0000D4053 /* Evaluate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		B3840B522A1835BE000D4053 /* MathExpressionPretty */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathExpressionPretty; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3840B552A1835BE000D4053 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3840B5C2A18439A000D4053 /* Lexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		B3840B5E2A1843D9000D4053 /* utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utility.swift; sourceTree = "<group>"; };
+		B3840B602A1844A5000D4053 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B3840B622A18457F000D4053 /* Exp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exp.swift; sourceTree = "<group>"; };
+		B3840B642A190AB0000D4053 /* Evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evaluate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 		B3840B492A1835BE000D4053 = {
 			isa = PBXGroup;
 			children = (
+				B3840B642A190AB0000D4053 /* Evaluate.swift */,
 				B3840B542A1835BE000D4053 /* MathExpressionPretty */,
 				B3840B532A1835BE000D4053 /* Products */,
 			);
@@ -58,6 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				B3840B552A1835BE000D4053 /* main.swift */,
+				B3840B602A1844A5000D4053 /* Parser.swift */,
+				B3840B622A18457F000D4053 /* Exp.swift */,
+				B3840B5C2A18439A000D4053 /* Lexer.swift */,
+				B3840B5E2A1843D9000D4053 /* utility.swift */,
 			);
 			path = MathExpressionPretty;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3840B612A1844A5000D4053 /* Parser.swift in Sources */,
+				B3840B5F2A1843D9000D4053 /* utility.swift in Sources */,
+				B3840B652A190AB0000D4053 /* Evaluate.swift in Sources */,
+				B3840B5D2A18439A000D4053 /* Lexer.swift in Sources */,
 				B3840B562A1835BE000D4053 /* main.swift in Sources */,
+				B3840B632A18457F000D4053 /* Exp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
